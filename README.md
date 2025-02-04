@@ -24,5 +24,27 @@ This is the frontend for the **Car Parking System** in Addis Ababa. It provides 
 
 ### 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/yourusername/car-parking-frontend.git
+git clone https://github.com/BekaB/car-parking-frontend.git
 cd car-parking-frontend
+```
+###2️⃣ Install dependencies:
+```bash
+npm install
+```
+###3️⃣ Create .env file
+VITE_API_URL=http://localhost:5000
+VITE_TELEBIRR_KEY=your_telebirr_api_key
+### 4️⃣ Run the frontend:
+```bash
+npm run dev
+```
+The app runs on http://localhost:5173
+
+🏗️ Deployment
+Local: npm run dev
+Production: Deployed on Vercel
+👨‍💻 Contributing
+Pull requests are welcome! Open an issue for bug reports or feature requests.
+
+
+
